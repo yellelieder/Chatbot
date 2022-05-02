@@ -10,6 +10,8 @@ To run this project, you will need to add your API key for the following service
 
 `https://openai.com/api`
 
+They both provide a certain amount of free calls, which are more than sufficient for basic local testing. 
+
 
 ## Configuration
 You might want to adjust the bot to your needs. You can do this by changing the values in the [config](config.py) file. Currently, the following values are potentially subject to change:
