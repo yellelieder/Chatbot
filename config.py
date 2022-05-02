@@ -1,7 +1,7 @@
 #https://www.deepl.com/en/docs-api/
-deepl_api_key = "77b0f44d-b8da-aa1c-0902-d2c8a50ab84d:fx"
+deepl_api_key = ""
 #https://openai.com/api/
-openai_api_key = "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"
+openai_api_key = ""
 #bot output language as in https://www.deepl.com/docs-api/other-functions/listing-supported-languages/
 target_language="DE"
 #you can keep this one
