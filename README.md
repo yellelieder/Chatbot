@@ -40,7 +40,7 @@ Check if GIT is installed
 Clone the project
 
 ```bash
-  git clone https://github.com/yellelieder/Chatbot.git
+  git clone https://github.com/yellelieder/Universal-Language-Chatbot.git
 ```
 
 Go to the project directory
