@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  div {
+  width: 900px;
+  border: 5px solid rgba(103, 103, 221, 0.637);
+  border-radius: 8px;
+  padding: 50px;
+  margin: 20px;
+}
+h1,h2{
+  align-items: center;
+}
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.box {
+  height:200px;
+  width:800px;
+  border:1px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto;
+}
+
+.input {
+  width:800px;
+  border:1px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto;
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+
+<body>
+    <div class="content">
+    <h1>Chatbot</h1>
+    <div class="box">
+      {% for row in chat %}
+        {{row}}<br>
+      {% endfor %}
+    </div>
+    <form action="" method="post">
+      <p><input name="user_input" placeholder="Nachricht eingeben.." class="input"></p>
+      <p><input type="submit" name="submit" value="Senden"></p>
+    </form>
+</div>
+</body>
+</html>
